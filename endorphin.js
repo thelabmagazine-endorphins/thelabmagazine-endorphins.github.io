@@ -14,7 +14,7 @@ function convertQuote(){
 	var quote = document.getElementById("quote");
 	quote.innerHTML = "<strong>“If you don’t make time for exercise, you’ll probably have to make time for illness.” - Robin Sharma</strong>"
 	var thank = document.getElementById("btn");
-	thank.innerHTML = "Thanks " + nameHtml;
+	thank.innerHTML = "Thank " + nameHtml;
 }
 
 window.onload = init;
